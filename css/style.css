@@ -1,89 +1,238 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 .header-section {
-    width: 100%;
-    height: 100vh;
-    border: 2px solid black;
+width: 100%;
+height: 130px;
+
+background: #7D8035;
 }
 .top-header {
-    width: 100%;
-    
-    height: 111px;
-    background-color: #7D8035;
-    display: flex;
-  }
-  .left-header {
-    width: 60%;
-   
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-   
-  }
-  .left-header img {
-    width: 158px;
-    height: 71px;
-  }
- .left-header input {
-    width: 367px;
-    height: 42px;
-    text-align: center;
-    position: relative;
-  }
-  .left-header .fi-xwluhl-magnifying-glass-wide {
-    position: absolute;
-    left: 667px;
-    width: 50px;
-    height: 43px;
-    background: #D0AF21;
-    text-align: center;
-    color: white;
-    font-size: 24px;
-  }
-  .right-header {
-    display: flex;
-    height: 100%;
-    align-items: center;
-  justify-content: flex-end;
-    width: 40%;
-  }
-  .right-header .boxe1 {
-    color: white;
-    margin-right: 35px;
-  }
-  .bottom-header {
-    width: 100%;
-    height: 53px;
-    border: 2px solid black;
-  }
-  .bottom-header ul {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    /* flex-direction: column; */
-  }
-  .bottom-header ul li {
-    margin-right: 15px;
-    color: black;
-    display: flex;
-    
+width: 100%;
+height: 30px;
 
-  }
-  .subheader {
-    display: none;
-  }
-  .birthday-items:hover .subheader{
-    width: 1000px;
-    height: 400px;
-    color: black;
-    display: block;
-    position: absolute;
-    border: 2px solid black;
+background: #7D8035;
+position: fixed;
+
+display: flex;
+justify-content: flex-end;
+color: white;
+position:  relative;
+padding-right: 190px;
+
+}
+.top-header h6 {
+  margin-right: 20px;
+ 
+}
+.top-header h4 {
+  font-size: 18px;
+}
+.top-header h4:hover .INRdropdown {
+  width: 200px;
+  height: 500px;
    
+  color: black;
+  position: absolute;
+  display: block;
+  top: 20px;
+  background-color: white;
+  left: 900px;
+
+}
+.INRdropdown {
+ 
+  display: none; 
+  
+}
+.INRdropdown::after {
+  content: "";
+  width: 10px;
+  height: 20px;
+  transform: rotate(45deg);
+  
+  background-color: white;
+ 
+  position: absolute;
+
+}
+.bottom-header {
+height: 100px;
+width: 100%;
+display: flex;
+}
+.bottomleft-header {
+width: 70%;
+height: 100%;
+
+display: flex;
+align-items: center;
+
+}
+.bottomleft-header .logo img {
+height: 53px;
+width: 145px;
+margin: 0px 25px;
+}
+.bottom-header input {
+  width: 359px;
+  
+height: 40px;
+border: none;
+position: relative;
+}
+.fi-xtluhl-magnifying-glass-thin {
+width: 46px;
+height: 40px;
+background: #D0AF21;
+position: absolute;
+left: 510px;
+font-size: 20px;
+text-align: center;
+color: white;
+}
+.bottom-header-watch {
+margin-left: 40px;
+
+text-align: center;
+
+color: white;
+}
+.bottom-header-watch i  {
+font-size: 26px;
+}
+.bottomright-header {
+display: flex;
+height: 100%;
+align-items: center;
+color: white;
+justify-content: center;
+width: 30%;
+}
+
+.box1 {
+  margin-right: 30px;
+}
+.bakery-items {
+ 
+  width: 100%;
+  height: 43px;
+  box-shadow: 0px 0px 5px 2px gray;
+ 
+}
+.bakery-Container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  
+  padding: 0px 40px;
+}
+.birthday-heading {
+  position: relative;
+ 
+}
+
+.birthdaysubheader {
+  
+  display: none;
+}
+.BIRTHDAY h6:hover .birthdaysubheader {
+  width: 1020px;
+  height: 500px;
+ 
+  position: absolute;
+  display: flex;
+  top: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px 0px gray;
+  background-color: white;
+  
+}
+.ANNIVERSARY h6:hover .birthdaysubheader {
+  width: 1020px;
+  height: 500px;
+ 
+  position: absolute;
+  display: flex;
+  top: 20px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px 0px gray;
+  background-color: white;
+  
+}
+.BIRTHDAY h6:hover {
+  border-bottom: 5px solid black;
+}
+.birthdaysubheader ul li {
+  margin-bottom: 20px;
+}
+.sub-sub-header h6 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  
+}
+.sub-sub-header img {
+  width: 134px;
+  height: 288px;
+  margin-left: 20px;
+  margin-top: 18px;
+}
+.banner-section {
+  
+  height: 360px;
+}
+.left-banner-section {
+
+height: 100%;
+height: 360px;
+  display: flex;
+
+  align-items: center;
+
+}
+.left-banner-section img {
+margin-left: 20px;
+
+}
+.left-banner-section img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+.right-banner-section {
+ 
+  height: 100%;
+  height: 360px;
+    display: flex;
+  flex-direction: column;
+    align-items: center;
+  gap: 20px;
+  padding-top: 10px;
   }
+  .right-banner-section img:hover {
+    transform: scale(1.1);
+  transition: 0.5s ease;
+  overflow: hidden;
+  }
+.accesosoriesfinish {
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+
+height: 250px;
+align-items: center;
+}
+.accesories:hover img {
+ margin-top: -20px;
+  transition: 0.2s ease;
+ 
+}
+.accesories img {
+  width: 90px;
+  height: 55px;
+}
