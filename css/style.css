@@ -6,6 +6,123 @@
   list-style: none;
 }
 .header-section {
+<<<<<<< HEAD
+=======
+width: 100%;
+height: 130px;
+
+background: #7D8035;
+ 
+}
+.top-header {
+width: 100%;
+height: 30px;
+
+background: #7D8035;
+position: fixed;
+
+display: flex;
+justify-content: flex-end;
+color: white;
+position:  relative;
+padding-right: 190px;
+
+}
+.top-header h6 {
+  margin-right: 20px;
+ 
+}
+.top-header h4 {
+  font-size: 18px;
+}
+.top-header h4:hover .INRdropdown {
+  width: 200px;
+  height: 500px;
+   
+  color: black;
+  position: absolute;
+  display: block;
+  top: 20px;
+  background-color: white;
+  left: 900px;
+
+}
+.INRdropdown {
+ 
+  display: none; 
+  
+}
+.INRdropdown::after {
+  content: "";
+  width: 10px;
+  height: 20px;
+  transform: rotate(45deg);
+  
+  background-color: white;
+ 
+  position: absolute;
+
+}
+.bottom-header {
+height: 100px;
+width: 100%;
+display: flex;
+}
+.bottomleft-header {
+width: 70%;
+height: 100%;
+
+display: flex;
+align-items: center;
+
+}
+.bottomleft-header .logo img {
+height: 53px;
+width: 145px;
+margin: 0px 25px;
+}
+.bottom-header input {
+  width: 359px;
+  
+height: 40px;
+border: none;
+position: relative;
+}
+.fi-xtluhl-magnifying-glass-thin {
+width: 46px;
+height: 40px;
+background: #D0AF21;
+position: absolute;
+left: 510px;
+font-size: 20px;
+text-align: center;
+color: white;
+}
+.bottom-header-watch {
+margin-left: 40px;
+
+text-align: center;
+
+color: white;
+}
+.bottom-header-watch i  {
+font-size: 26px;
+}
+.bottomright-header {
+display: flex;
+height: 100%;
+align-items: center;
+color: white;
+justify-content: center;
+width: 30%;
+}
+
+.box1 {
+  margin-right: 30px;
+}
+.bakery-items {
+ 
+>>>>>>> 49eabf318dca2586fd650fdbf29594e271b53aa9
   width: 100%;
   height: 115px;
   background: #7D8035;
@@ -218,6 +335,7 @@
 .sellinggifts-section h3 {
   font-weight: bolder;
 }
+<<<<<<< HEAD
 .sellinggifts-section h6 {
   font-weight: bold;
 }
@@ -556,4 +674,47 @@ transition: 0.5s ease;
 
 
 font-size: 30px;
+=======
+.delivery-section {
+  box-shadow: 0px 0px 3px 0px gray;
+ padding: 20px;
+}
+.delivery-section.line {
+  border: 2px solid black;
+  height: 35px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  
+}
+.delivery-section-itemlist {
+  display: flex;
+}
+.delivery-section-itemlist p {
+  display: inline;
+  margin-left: 10px;
+}
+.delivery-section-itemlist i {
+  color:#7D8035;
+}
+.freshflowerslist {
+  height: 207px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bestsellinggifts-item {
+  height: 450px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px;
+}
+.bestsellinggifts-item img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+>>>>>>> 49eabf318dca2586fd650fdbf29594e271b53aa9
 }
